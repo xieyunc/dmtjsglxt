@@ -1,0 +1,73 @@
+object ChgMasterCode: TChgMasterCode
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'MASTER'#23494#30721#20462#25913
+  ClientHeight = 180
+  ClientWidth = 305
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 14
+  object lbledt1: TLabeledEdit
+    Left = 95
+    Top = 55
+    Width = 194
+    Height = 22
+    EditLabel.Width = 72
+    EditLabel.Height = 14
+    EditLabel.Caption = #21407#23494#30721#21069#32512#65306
+    LabelPosition = lpLeft
+    TabOrder = 0
+    OnChange = lbledt1Change
+  end
+  object lbledt2: TLabeledEdit
+    Left = 95
+    Top = 91
+    Width = 194
+    Height = 22
+    EditLabel.Width = 72
+    EditLabel.Height = 14
+    EditLabel.Caption = #26032#23494#30721#21069#32512#65306
+    LabelPosition = lpLeft
+    TabOrder = 1
+    OnChange = lbledt1Change
+  end
+  object btn_OK: TBitBtn
+    Left = 124
+    Top = 132
+    Width = 75
+    Height = 25
+    Caption = #20462#25913'[&U]'
+    Enabled = False
+    TabOrder = 2
+    OnClick = btn_OKClick
+  end
+  object btn_Cancel: TBitBtn
+    Left = 205
+    Top = 132
+    Width = 75
+    Height = 25
+    Caption = #21462#28040'[&C]'
+    TabOrder = 3
+    OnClick = btn_CancelClick
+  end
+  object pnl1: TPanel
+    Left = 11
+    Top = 8
+    Width = 281
+    Height = 34
+    BevelInner = bvLowered
+    Caption = #20462#25913'MASTER'#23494#30721#21069#32512#65292#26368#21518#22235#20301#26102#38388#19981#29992#36755#20837#65281
+    Color = clOlive
+    ParentBackground = False
+    TabOrder = 4
+  end
+end

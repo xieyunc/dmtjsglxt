@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{1CDF5813-1925-42A4-8D07-59FC4504D563}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="dmtglxt.exe">source\dmtglxt.bdsproj</Projects>
+      <Projects Name="ShutDownSoldier.dll">Soldier_dll\ShutDownSoldier.bdsproj</Projects>
+      <Projects Name="IntoShutDownDLL.exe">Soldier_dll\IntoShutDownDLL.bdsproj</Projects>
+      <Projects Name="Targets">dmtglxt.exe ShutDownSoldier.dll IntoShutDownDLL.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>
